@@ -50,4 +50,18 @@ class LinkedList {
 			return this.head;
 		}
 	}
+
+	returnTail() {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let current = this.head;
+			while (current.next) {
+				current = current.next;
+			}
+			console.log(current);
+			return current;
+		}
+	}
 }
