@@ -40,4 +40,14 @@ class LinkedList {
 			return sum;
 		}
 	}
+
+	returnHead() {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			console.log(this.head);
+			return this.head;
+		}
+	}
 }
