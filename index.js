@@ -138,4 +138,21 @@ class LinkedList {
 			return null;
 		}
 	}
+
+	toString() {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let current = this.head;
+			let resultString = `(${current.value}) -> `;
+			while (current.next) {
+				resultString += `(${current.next.value}) -> `;
+				current = current.next;
+			}
+			resultString += 'null';
+			console.log(resultString);
+			return resultString;
+		}
+	}
 }
