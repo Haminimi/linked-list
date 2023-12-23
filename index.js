@@ -219,3 +219,11 @@ class Node {
 		this.next = next;
 	}
 }
+
+const linkedList = new LinkedList();
+linkedList.append(1);
+linkedList.append(3);
+linkedList.prepend(0);
+linkedList.insertAt(2, 2);
+linkedList.toString();
+console.log(linkedList);
