@@ -64,4 +64,23 @@ class LinkedList {
 			return current;
 		}
 	}
+
+	at(index) {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let current = this.head;
+			let currentIndex = 0;
+			while (current) {
+				if (index === currentIndex) {
+					console.log(current);
+					return current;
+				} else {
+					current = current.next;
+					currentIndex += 1;
+				}
+			}
+		}
+	}
 }
