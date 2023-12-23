@@ -117,4 +117,25 @@ class LinkedList {
 			return false;
 		}
 	}
+
+	find(value) {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let current = this.head;
+			let index = 0;
+			while (current) {
+				if (current.value === value) {
+					console.log(index);
+					return index;
+				} else {
+					current = current.next;
+					index += 1;
+				}
+			}
+			console.log('List does not contains an element with that value.');
+			return null;
+		}
+	}
 }
