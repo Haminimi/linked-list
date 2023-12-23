@@ -98,4 +98,23 @@ class LinkedList {
 			parent.next = null;
 		}
 	}
+
+	contains(value) {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let current = this.head;
+			while (current) {
+				if (current.value === value) {
+					console.log('True');
+					return true;
+				} else {
+					current = current.next;
+				}
+			}
+			console.log('False');
+			return false;
+		}
+	}
 }
