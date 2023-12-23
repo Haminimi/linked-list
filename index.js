@@ -184,4 +184,31 @@ class LinkedList {
 			}
 		}
 	}
+
+	removeAt(index) {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let current = this.head;
+			let prev;
+			let currentIndex = 0;
+
+			while (current) {
+				if (currentIndex === index) {
+					if (index === 0) {
+						current = current.next;
+						return;
+					} else {
+						prev.next = current.next;
+						return;
+					}
+				} else {
+					prev = current;
+					current = current.next;
+					currentIndex += 1;
+				}
+			}
+		}
+	}
 }
