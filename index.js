@@ -83,4 +83,19 @@ class LinkedList {
 			}
 		}
 	}
+
+	pop() {
+		if (!this.head) {
+			console.log('List is empty.');
+			return null;
+		} else {
+			let parent;
+			let current = this.head;
+			while (current.next) {
+				parent = current;
+				current = current.next;
+			}
+			parent.next = null;
+		}
+	}
 }
