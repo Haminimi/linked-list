@@ -14,4 +14,14 @@ class LinkedList {
 			current.next = new Node(value);
 		}
 	}
+
+	prepend(value) {
+		if (!this.head) {
+			this.head = new Node(value);
+		} else {
+			const temp = this.head;
+			this.head = new Node(value);
+			this.head.next = temp;
+		}
+	}
 }
