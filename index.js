@@ -24,4 +24,20 @@ class LinkedList {
 			this.head.next = temp;
 		}
 	}
+
+	size() {
+		if (!this.head) {
+			console.log(0);
+			return null;
+		} else {
+			let current = this.head;
+			let sum = 1;
+			while (current.next) {
+				current = current.next;
+				sum += 1;
+			}
+			console.log(sum);
+			return sum;
+		}
+	}
 }
