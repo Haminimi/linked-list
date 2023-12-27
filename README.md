@@ -23,7 +23,6 @@ Use the [linked list](https://haminimi.github.io/linked-list/) in your developer
 **The project is built with:**
 - HTML
 - Vanilla JavaScript
-- Vanilla CSS
 
 **Tools**
 - Git
