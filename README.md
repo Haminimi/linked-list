@@ -25,8 +25,8 @@ Use the [linked list](https://haminimi.github.io/linked-list/) in your developer
 - Vanilla JavaScript
 
 **Tools**
-- Git
 - Visual Studio Code
+- Git
 ## Covered Topics
 **This section mentions the main topics covered during project work and prior lessons**
 - Algorithms and Data Structures
@@ -44,5 +44,4 @@ The past few lessons are opening up the world of algorithms and data structures 
 - [Exercism](https://exercism.org/profiles/Haminimi)
 - [LeetCode](https://leetcode.com/Haminimi/)
 - Email: haminimi.dev@gmail.com
-- LinkedIn: A profile will be available at the time I am job ready
 ## Happy coding!
