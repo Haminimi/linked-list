@@ -39,9 +39,4 @@ Use the [linked list](https://haminimi.github.io/linked-list/) in your developer
 The past few lessons are opening up the world of algorithms and data structures to me, and  I can just say that it's a great joy to be a part of it.
 ## Credits
 - Icon used for the favicon image is one of the [Hierarchy icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/hierarchy).
-## Author
-- [GitHub](https://github.com/Haminimi)
-- [Exercism](https://exercism.org/profiles/Haminimi)
-- [LeetCode](https://leetcode.com/Haminimi/)
-- Email: haminimi.dev@gmail.com
 ## Happy coding!
